@@ -1,0 +1,402 @@
+/* START CMDotNet.FolderSelector.css */
+/*---------- Folder selector combobox ----------*/
+    ul.rcbList li.folder
+    {
+        background: url(/Images/TDCM/Folder.gif) no-repeat 0 2px;
+        display: block;
+        height: 23px;
+        list-style: none;
+        padding: 0 0 0 23px;
+        height: 25px;
+    }
+    ul.rcbList li.folderLevel1
+    {
+        margin-left: 0px;
+    }
+    ul.rcbList li.folderLevel2
+    {
+        margin-left: 10px;
+    }
+    ul.rcbList li.folderLevel3
+    {
+        margin-left: 20px;
+    }
+    ul.rcbList li.folderLevel4
+    {
+        margin-left: 30px;
+    }
+    ul.rcbList li.folderLevel5
+    {
+        margin-left: 40px;
+    }
+    ul.rcbList li.folderLevel6
+    {
+        margin-left: 50px;
+    }
+    ul.rcbList li.folderLevel7
+    {
+        margin-left: 60px;
+    }
+    ul.rcbList li.folderLevel8
+    {
+        margin-left: 70px;
+    }
+    ul.rcbList li.folderLevel9
+    {
+        margin-left: 80px;
+    }
+    ul.rcbList li.folderLevel10
+    {
+        margin-left: 90px;
+    }
+
+/* END CMDotNet.FolderSelector.css */
+/* START CMDotNet.Skins.Elcom.Input.Elcom.css */
+/* Input.Elcom.css */
+
+/*global*/
+
+.RadInput_Elcom,
+.RadInputMgr_Elcom
+{
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+/*textbox states*/
+
+html body .RadInput_Elcom .riTextBox,
+html body .RadInputMgr_Elcom
+{
+	border-color:#8e8e8e #b8b8b8 #b8b8b8 #8e8e8e;
+	background:#fff;
+	color:#000;
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+html body .RadInput_Elcom .riEmpty,
+html body .RadInput_Empty_Elcom
+{
+	color:#8a8a8a;
+}
+
+html body .RadInput_Elcom .riHover,
+html body .RadInput_Hover_Elcom,
+html body .RadInput_Elcom .riFocused,
+html body .RadInput_Focused_Elcom
+{
+	border-color:#486277;
+}
+
+html body .RadInput_Elcom .riRead,
+html body .RadInput_Read_Elcom
+{
+	border-color:#d0d0d0;
+}
+
+html body .RadInput_Elcom .riDisabled,
+html body .RadInput_Disabled_Elcom
+{
+	border-color:#d0d0d0;
+	color:#8a8a8a;
+	cursor:default;
+}
+
+html body .RadInput_Elcom .riError,
+html body .RadInput_Error_Elcom
+{
+	border-color:#d51923;
+	background:#fff 100% -298px no-repeat url(/WebResource.axd?d=nR7L7JjJDr3lOr0XJ46OAl5qg9RmNYtletw7spG9kCpNKJnhX6FMZcMPZFNW6oTTOcDdm2ZMA8pKDhc8wcZMTkZrEqq624dXiHzstD0CxWDz72_QY_pLoro_zMBaRxir8gc5yg2&t=636612865265744475);
+	color:#d51923;
+}
+
+.RadForm.rfdTextbox .RadInput_Elcom .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Elcom[type="text"]
+{
+	border-color:#d51923;
+	background:#fff 100% -298px no-repeat url(/WebResource.axd?d=nR7L7JjJDr3lOr0XJ46OAl5qg9RmNYtletw7spG9kCpNKJnhX6FMZcMPZFNW6oTTOcDdm2ZMA8pKDhc8wcZMTkZrEqq624dXiHzstD0CxWDz72_QY_pLoro_zMBaRxir8gc5yg2&t=636612865265744475);
+	color:#d51923;
+}
+
+html body .RadInput_Elcom .riNegative,
+html body .RadInput_Negative_Elcom
+{
+	color:#565656;
+}
+
+/*buttons*/
+
+.RadInput_Elcom a
+{
+	background:transparent no-repeat url(/WebResource.axd?d=nR7L7JjJDr3lOr0XJ46OAl5qg9RmNYtletw7spG9kCpNKJnhX6FMZcMPZFNW6oTTOcDdm2ZMA8pKDhc8wcZMTkZrEqq624dXiHzstD0CxWDz72_QY_pLoro_zMBaRxir8gc5yg2&t=636612865265744475);
+}
+
+/*go*/
+
+.RadInput_Elcom .riBtn a
+{
+	width:20px;
+	height:18px;
+	line-height:18px;
+	background-position:3px 5px;
+}
+
+.RadInput_Elcom .riBtn a:hover
+{
+	background-position:3px -45px;
+}
+
+/*spin*/
+
+.RadInput_Elcom .riSpin a
+{
+	width:15px;
+	height:7px;
+	line-height:7px;
+}
+
+.RadInput_Elcom a.riUp
+{
+	background-position:4px -98px;
+}
+
+.RadInput_Elcom a.riUp:hover
+{
+	background-position:4px -148px;
+}
+
+.RadInput_Elcom a.riDown
+{
+	background-position:4px -199px;
+}
+
+.RadInput_Elcom a.riDown:hover
+{
+	background-position:4px -249px;
+}
+
+/*label*/
+
+.RadInput_Elcom .riLabel
+{
+	color:#000;
+}
+
+/*rtl*/
+
+html body .RadInputRTL_Elcom .riError,
+html body .RadInputRTL_Error_Elcom
+{
+	background-position:3px -298px;
+}
+
+.RadForm.rfdTextbox .RadInputRTL_Elcom .riError[type="text"],
+.RadForm.rfdTextbox .RadInputRTL_Error_Elcom[type="text"]
+{
+	background-position:3px -298px;
+}
+/* END CMDotNet.Skins.Elcom.Input.Elcom.css */
+/* START CMDotNet.Skins.Elcom.ComboBox.Elcom.css */
+/* ComboBox.Elcom.css */
+
+/*global*/
+
+.RadComboBox_Elcom,
+.RadComboBox_Elcom .rcbInput,
+.RadComboBoxDropDown_Elcom
+{
+	font: 12px "Segoe UI", Arial, sans-serif;
+	color: #000;
+}
+
+/* combobox */
+
+.RadComboBox_Elcom .rcbInputCellLeft,
+.RadComboBox_Elcom .rcbInputCellRight,
+.RadComboBox_Elcom .rcbArrowCellLeft,
+.RadComboBox_Elcom .rcbArrowCellRight
+{
+	background-image: url(/WebResource.axd?d=rx314ioAZ0IeCYle1EkyqFs4iT20egdPoEcxX8J5axWdL2MMvOH_MUI4ezrlrYiDk_Ufv8ttfSx3Aq7JfGgGjd8e15mSZMpAwlWjv_DJ_PSl3zZGUEtWq55temLYml5AivtrZ4y8_8IZZw-e4Dbprlt6kAw1&t=636612865265744475);
+}
+
+* html .RadComboBox_Elcom .rcbInputCellLeft,
+* html .RadComboBox_Elcom .rcbInputCellRight,
+* html .RadComboBox_Elcom .rcbArrowCellLeft,
+* html .RadComboBox_Elcom .rcbArrowCellRight
+{
+	background-image: url(/WebResource.axd?d=B0q4Ob-D4rRl9I6fgBgM0lrp7FXWWNuIrmxT8HZ7g40jqY8YCw1dhMTtew0O3tUasP-9LFWDW6119hgGMzG8ogW_0iKn_B0WEjeL15oDXy_cJHJ0_GdccuwE1eBBHNVGoLjs5AV2eYw1ruOUiTklfeRvbos1&t=636612865265744475);
+}
+
+.RadComboBox_Elcom td.rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_Elcom td.rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_Elcom .rcbHovered .rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_Elcom .rcbHovered .rcbInputCellRight { background-position: 100% 0; }
+
+/* Make the color of the text of the input white to stand out from the background */
+.RadComboBox_Elcom .rcbFocused .rcbInput
+{
+	/* doesn't work for an editable combobox after an item in the list is chosen */
+	/* color: #ffffff; */
+}
+
+.RadComboBox_Elcom .rcbFocused .rcbInputCellLeft { background-position: 0 0; }
+.RadComboBox_Elcom .rcbFocused .rcbInputCellRight { background-position: 100% 0; }
+
+.RadComboBox_Elcom .rcbHovered .rcbReadOnly td.rcbInputCellLeft { background-position: 0 -22px; }
+.RadComboBox_Elcom .rcbHovered .rcbReadOnly td.rcbInputCellRight { background-position: 100% -22px; }
+
+.RadComboBox_Elcom .rcbFocused .rcbReadOnly td.rcbInputCellLeft { background-position: 0 -44px; }
+.RadComboBox_Elcom .rcbFocused .rcbReadOnly td.rcbInputCellRight { background-position: 100% -44px; }
+
+.RadComboBox_Elcom .rcbInputCell .rcbEmptyMessage
+{
+	color: #666;
+}
+
+.RadComboBox_Elcom td.rcbArrowCellLeft { background-position: -18px -88px; }
+.RadComboBox_Elcom td.rcbArrowCellRight { background-position: 0 -88px; }
+
+.RadComboBox_Elcom .rcbHovered .rcbArrowCellLeft { background-position: -54px -88px; }
+.RadComboBox_Elcom .rcbHovered .rcbArrowCellRight { background-position: -36px -88px; }
+
+.RadComboBox_Elcom .rcbFocused .rcbArrowCellLeft { background-position: -90px -88px; }
+.RadComboBox_Elcom .rcbFocused .rcbArrowCellRight { background-position: -72px -88px; }
+
+.RadComboBox_Elcom td.rcbArrowCellHidden,
+.RadComboBox_Elcom .rcbHovered td.rcbArrowCellHidden,
+.RadComboBox_Elcom .rcbFocused td.rcbArrowCellHidden { background-position: -15px -88px; }
+
+.RadComboBox_Elcom_rtl td.rcbArrowCellHidden,
+.RadComboBox_Elcom_rtl .rcbHovered td.rcbArrowCellHidden,
+.RadComboBox_Elcom_rtl .rcbFocused td.rcbArrowCellHidden { background-position: -18px -88px; }
+
+/* Read-only styles */
+
+.RadComboBox_Elcom .rcbReadOnly td.rcbArrowCellLeft { background-position: -18px -88px; }
+/*.RadComboBox_Elcom .rcbReadOnly td.rcbArrowCellRight { background-position: -2px -88px; }*/
+
+.RadComboBox_Elcom .rcbHovered .rcbReadOnly .rcbArrowCellLeft { background-position: -54px -88px; }
+/*.RadComboBox_Elcom .rcbHovered .rcbReadOnly .rcbArrowCellRight { background-position: -38px -88px; }*/
+
+.RadComboBox_Elcom .rcbFocused .rcbReadOnly .rcbArrowCellLeft { background-position: -90px -88px; }
+/*.RadComboBox_Elcom .rcbFocused .rcbReadOnly .rcbArrowCellRight { background-position: -74px -88px; }*/
+
+.RadComboBox_Elcom .rcbReadOnly td.rcbArrowCellHidden { background-position: -15px -88px; }
+.RadComboBox_Elcom .rcbHovered .rcbReadOnly td.rcbArrowCellHidden { background-position: -51px -88px; }
+.RadComboBox_Elcom .rcbFocused .rcbReadOnly td.rcbArrowCellHidden { background-position: -87px -88px; }
+
+.RadComboBox_Elcom_rtl .rcbReadOnly td.rcbArrowCellHidden { background-position: -18px -88px; }
+.RadComboBox_Elcom_rtl .rcbHovered .rcbReadOnly td.rcbArrowCellHidden { background-position: -54px -88px; }
+.RadComboBox_Elcom_rtl .rcbFocused .rcbReadOnly td.rcbArrowCellHidden { background-position: -90px -88px; }
+
+/* dropdown */
+
+.RadComboBoxDropDown_Elcom .rcbHeader,
+.RadComboBoxDropDown_Elcom .rcbFooter,
+.RadComboBoxDropDown_Elcom .rcbMoreResults a
+{
+	background-image: url(/WebResource.axd?d=rx314ioAZ0IeCYle1EkyqFs4iT20egdPoEcxX8J5axWdL2MMvOH_MUI4ezrlrYiDk_Ufv8ttfSx3Aq7JfGgGjd8e15mSZMpAwlWjv_DJ_PSl3zZGUEtWq55temLYml5AivtrZ4y8_8IZZw-e4Dbprlt6kAw1&t=636612865265744475);
+}
+
+* html .RadComboBoxDropDown_Elcom .rcbHeader,
+* html .RadComboBoxDropDown_Elcom .rcbFooter,
+* html .RadComboBoxDropDown_Elcom .rcbMoreResults a
+{
+	background-image: url(/WebResource.axd?d=B0q4Ob-D4rRl9I6fgBgM0lrp7FXWWNuIrmxT8HZ7g40jqY8YCw1dhMTtew0O3tUasP-9LFWDW6119hgGMzG8ogW_0iKn_B0WEjeL15oDXy_cJHJ0_GdccuwE1eBBHNVGoLjs5AV2eYw1ruOUiTklfeRvbos1&t=636612865265744475);
+}
+
+.RadComboBoxDropDown_Elcom
+{
+	background: #fff;
+	border-color: #c6c7d2;
+	border-top-color: #83868d;
+}
+
+.RadComboBoxDropDown_Elcom .rcbHeader,
+.RadComboBoxDropDown_Elcom .rcbFooter
+{
+	background-color: #f1f2f4;
+	background-position: 0 -110px;
+}
+
+.RadComboBoxDropDown_Elcom .rcbHeader
+{
+	border-bottom-color: #d5d5d5;
+}
+
+.RadComboBoxDropDown_Elcom .rcbFooter
+{
+	border-top-color: #d5d5d5;
+}
+
+.RadComboBoxDropDown_Elcom .rcbItem em
+{
+	background: #e5e5e5;
+}
+
+.RadComboBoxDropDown_Elcom .rcbHovered
+{
+	background: #9ddf6c;
+}
+
+.RadComboBoxDropDown_Elcom .rcbSeparator
+{
+    color: #000;
+    background: #63ac39;
+}
+
+.RadComboBox_Elcom .rcbDisabled .rcbInputCell .rcbInput,
+.RadComboBoxDropDown_Elcom .rcbDisabled
+{
+	color: #999;
+}
+
+.RadComboBox_Elcom .rcbDisabled td.rcbInputCellLeft { background-position: 0 -66px; }
+.RadComboBox_Elcom .rcbDisabled td.rcbInputCellRight { background-position: 100% -66px; }
+.RadComboBox_Elcom .rcbDisabled td.rcbArrowCellLeft { background-position: -126px -88px; }
+.RadComboBox_Elcom .rcbDisabled td.rcbArrowCellRight { background-position: -108px -88px; }
+.RadComboBox_Elcom .rcbDisabled .rcbReadOnly td.rcbArrowCellRight { background-position: -110px -88px; }
+.RadComboBox_Elcom table.rcbDisabled td.rcbArrowCellHidden,
+.RadComboBox_Elcom .rcbDisabled .rcbReadOnly td.rcbArrowCellHidden { background-position: -123px -88px; }
+.RadComboBox_Elcom_rtl table.rcbDisabled td.rcbArrowCellHidden,
+.RadComboBox_Elcom_rtl .rcbDisabled .rcbReadOnly td.rcbArrowCellHidden { background-position: -126px -88px; }
+
+.RadComboBoxDropDown_Elcom .rcbLoading
+{
+	background: #f0f0f0;
+}
+
+.RadComboBoxDropDown_Elcom .rcbMoreResults
+{
+	border-top-color: #c6c7d2;
+	background: #fff;
+}
+
+.RadComboBoxDropDown_Elcom .rcbMoreResults a
+{
+	background-position: -157px -94px;
+}
+
+
+ DIV.RadComboBoxDropDown_Elcom .rcbItem {
+
+	FONT-FAMILY: Lucida Grande, Lucida Sans Unicode, Tahoma, Verdana, sans-serif;
+
+}
+
+ DIV.RadComboBoxDropDown_Elcom .rcbHovered {
+
+	BACKGROUND-COLOR: #BBCDDD;
+
+	FONT-FAMILY: Lucida Grande, Lucida Sans Unicode, Tahoma, Verdana, sans-serif;
+
+}
+
+ DIV.RadComboBoxDropDown_Elcom .rcbDisabled {
+
+	FONT-FAMILY: Lucida Grande, Lucida Sans Unicode, Tahoma, Verdana, sans-serif;
+
+}
+
+div.rcbSlide { z-index:91000 !important; }
+/* END CMDotNet.Skins.Elcom.ComboBox.Elcom.css */
